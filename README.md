@@ -5,7 +5,7 @@ In order this container to works, as Open MQ bind a consumer to a dynamics port,
 
 For example :
 ```
-docker pull loicmathieu/imqbrokerd
+ docker pull loicmathieu/imqbrokerd
  docker run -ti -p 7676:7676 --net=host loicmathieu/imqbrokerd
 ```
 You can then connect to the JMS broker on port 7676
