@@ -2,9 +2,9 @@
 # This dockerfile will setup a centos container with OpenJDK installed on it
 ############################################################################
 
-FROM loicmathieu/openjdk
+FROM swhite2016/openjdk
 
-MAINTAINER Loic Mathieu <loicmathieu@free.fr>
+MAINTAINER Susie White <susie.white@salesforce.com>
 
 ADD imq.tar /opt/imq.tar
 
